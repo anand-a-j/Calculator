@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    outline: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+body{
+    background-color: #eee;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Calculator{
+    background-color: #343536;
+    padding:15px;
+    border-radius:30px;
+    box-shadow: inset 5px 5px 12px #343536,
+                      5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+input{
+    grid-column: span  4;
+    height:70px;
+    max-width:260px;
+    background-color: #95a991;
+    box-shadow: inset -5px -5px 12px #95a991,
+                inset  5px  5px 12px rgba(0,0,0,.16);
+    border:none;
+    border-radius: 15px;
+    color:rgb(70,70,70);
+    font-size: 50px;
+    text-align: end;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 8px;
+}
+button{
+    width:48px;
+    height:48px;
+    background-color: #71787d;
+    color:#fff;
+    border:none;
+    border-radius: 50%;
+    margin:8px;
+    font-size: 16px;
+    transition:.3s;
+    
+}
+button:active {
+    transform: translateY(1.5px);
+
+}
+#equalBtn{
+    background-color: rgb(156, 91, 91);
+    width:115px;
+    border-radius: 40px;
+    font-size: 18px;
+}
+
+
